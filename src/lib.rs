@@ -3,7 +3,7 @@ use config_loader::ConfigLoader;
 pub use log::*;
 
 pub fn setup_logger(
-    config_loader: Option<config_loader::ConfigLoader>,
+    config_loader: Option<&config_loader::ConfigLoader>,
 ) -> Result<(), fern::InitError> {
     let mut dispatch = fern::Dispatch::new().format(|out, message, record| {
         out.finish(format_args!(
