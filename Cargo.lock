@@ -99,8 +99,8 @@ dependencies = [
 
 [[package]]
 name = "config_loader"
-version = "0.1.1"
-source = "git+https://github.com/StefanMallia/config_loader?branch=main#66b6419ce0776df7d144e90dee3c23dd0dbcc8d2"
+version = "0.1.3"
+source = "git+https://github.com/StefanMallia/config_loader?branch=main#36c2f7d4c3c0f936cded5f900362d28ffea09c96"
 dependencies = [
  "config",
 ]
@@ -346,7 +346,7 @@ checksum = "3e52c148ef37f8c375d49d5a73aa70713125b7f19095948a923f80afdeb22ec2"
 
 [[package]]
 name = "rust_log"
-version = "0.2.0"
+version = "0.3.1"
 dependencies = [
  "chrono",
  "config_loader",
