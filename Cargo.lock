@@ -95,8 +95,8 @@ dependencies = [
 
 [[package]]
 name = "config_loader"
-version = "0.2.0"
-source = "git+https://github.com/StefanMallia/config_loader?branch=main#adc030d5fef8b6d7753ca05d6b65ee4950181bb4"
+version = "0.3.0"
+source = "git+https://github.com/StefanMallia/config_loader?branch=main#8e2f2f335dd6c741272f4a8f901c4009beb03882"
 dependencies = [
  "config",
  "serde 1.0.180",
@@ -288,7 +288,7 @@ checksum = "3e52c148ef37f8c375d49d5a73aa70713125b7f19095948a923f80afdeb22ec2"
 
 [[package]]
 name = "rust_log"
-version = "0.3.1"
+version = "0.3.2"
 dependencies = [
  "chrono",
  "config_loader",
