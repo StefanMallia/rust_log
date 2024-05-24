@@ -1,6 +1,6 @@
 [package]
 name = "rust_log"
-version = "0.3.3"
+version = "0.3.4"
 authors = ["StefanMallia"]
 edition = "2021"
 
@@ -10,4 +10,4 @@ edition = "2021"
 chrono = "0.4.19"
 fern = "0.6.1"
 log = "0.4.17"
-config_loader = { version = ">= 0.3, < 1.0", git = "https://github.com/StefanMallia/config_loader", branch = "main" }
+config_loader = { version = ">= 0.3.0, < 1.0.0", git = "https://github.com/StefanMallia/config_loader", branch = "main" }
